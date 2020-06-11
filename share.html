@@ -12,7 +12,8 @@
     </script> -->
 </head>
 <body>
-    <p onClick="document.location='https://api.whatsapp.com/send?phone=&text=' + window.history.back + 'Shared via .share'">wa</p>
-    <a class="twitter-share-button" onclick="document.location='https://twitter.com/intent/tweet?text=' + window.history.back">Tweet</a>
+    <p onClick="document.location='https://api.whatsapp.com/send?phone=&text=' + window.location.href + 'Shared via .share'">wa</p>
+    <a class="twitter-share-button" onclick="document.location='https://twitter.com/intent/tweet?text=' + window.location.href">Tweet</a>
+    <p onclick="document.location='https://twitter.com/messages/compose?text='+ window.location.href + '%20shared%20via%20.share&web_url=' + window.location.href">Send via twitter Direct message</p>
 </body>
 </html>
